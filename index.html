@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <!-- title and description -->
+        <title>CТРОМАВТОЛИНИЯ</title>
+        <meta name="description" content="Description content.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles -->
+        <link rel="stylesheet" href="./styles/style.css" type="text/css">
+        <link rel="stylesheet" href="./styles/slider.css" type="text/css">
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+        <link rel="apple-touch-icon" href="./src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="./src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./src/icons/touch-icon-ipad-retina.png">
+        <!-- open graph -->
+        <meta property="og:title" content="Open graph title" />
+        <!--
+        <meta property="og:type" content="./src/video/mp4" />
+        <meta property="og:video" content="https://site.com/video/example.mp4" />
+        -->
+        <!--
+        <meta property="og:type" content="./src/audio/mp3" />
+        <meta property="og:audio" content="https://site.com/audio/example.mp3" />
+        -->
+        <meta property="og:type" content="article" /> <!-- if not audio and not video -->
+        <meta property="og:url" content="https://website.com/" />
+        <meta property="og:image" content="./src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+        <meta property="og:site_name" content="website.com" /> <!-- not important -->
+        <meta property="og:description" content="Description content." /> <!-- not important -->
+        <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
+    </head>
+    <body>
+        <header>
+            <img class='logo' src="./src/img/LOGO_bw.svg" alt="">
+            <img class="phone" src="./src/img/photo1713446356.jpeg" alt="">
+            <!--<div class="title">СТРОМАВТОЛИНИЯ</div>-->
+            <nav><a href="./main.html">главная</a>
+                <a href="#">портфолио</a>
+                <a href="#">контакты</a>
+                <a href="#">услуги</a>
+            </nav>
+        </header>
+
+        <div id="slider" 2000x897>
+            <div id="current"></div>
+            <div id="next"></div>
+            <h5 class="slide-title"></h5>
+            <h4 class="slide-title"></h4>
+            <button id="btn_previous"></button>
+            <button id="btn_next"></button>
+            <a href="#" id="btn_href"></a>
+        </div>
+
+
+        <div id="offset"></div>
+        <div class="text">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <div class="third">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Vero animi unde facere incidunt necessitatibus debitis consequuntur.
+                    Veritatis harum dolores animi!
+                </p>
+            </div>
+            <div class="third">
+                <h3>Почему мы?
+
+                    
+                    Каждому клиенту доступен полный перечень наших возможностей:</h3>
+                <p>
+                    производство оборудования
+                    проектно-сметная документация
+                    пуско-наладочные работы
+                    поддержка и сервисное обслуживание
+                    
+                </p>
+            </div>
+            <div class="third">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Vero animi unde facere incidunt necessitatibus debitis consequuntur.
+                    Veritatis harum dolores animi!
+                </p>
+            </div>
+        </div>
+        
+        <!-- scripts -->
+        <script src="./js/main.js"></script>
+        <script src="./js/slider.js"></script>
+    </body>
+</html>
